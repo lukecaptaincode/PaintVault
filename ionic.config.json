@@ -1,5 +1,7 @@
 {
   "name": "PaintVault",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

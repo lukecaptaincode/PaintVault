@@ -4,17 +4,14 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'splash',
     pathMatch: 'full'
   },
-  {
-    path: 'home',
-    loadChildren: './home/home.module#HomePageModule'
-  },
-  {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
-  }
+  { path: 'scanner', loadChildren: './scanner/scanner.module#ScannerPageModule' },
+  { path: 'inventory', loadChildren: './inventory/inventory.module#InventoryPageModule' },
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
+  { path: 'splash', loadChildren: './splash/splash.module#SplashPageModule' },
+  { path: 'add-product', loadChildren: './add-product/add-product.module#AddProductPageModule' }
 ];
 
 @NgModule({
