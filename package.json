@@ -41,7 +41,7 @@
     "core-js": "^2.5.4",
     "phonegap-plugin-barcodescanner": "8.0.1",
     "rxjs": "~6.5.1",
-    "sequelize": "^5.8.7",
+    "sequelize": "^5.15.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.29"
   },
